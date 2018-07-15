@@ -1,5 +1,11 @@
-%body
-  %header
-    %h1 Edit event
-  = render "form", event: @event
-= link_to "cancel", pic_path
+#edit_page.col-md-8.col-md-offset-2
+  .row
+    .panel.panel-defsault
+      .panel-heading
+        %h1 Edit Pic
+      .panel-body
+        .current_image
+          %strong.center Right Now
+          = image_tag @pic.image.url(:medium)
+        =render 'form'  
+        
