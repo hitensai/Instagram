@@ -5,20 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Gems Used
 
-* System dependencies
+* Haml -> markup language
+* Bootstrap-sass -> styling
+* Simple_form -> Form styling
+* Devise -> Authentication
+* Paperclip -> Image uploading
+* Masonry-Jquery -> Homepage styling
+* Acts_as_votable -> Votingup a Pic
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Rails Version 5.2.0
+* Ruby version  2.5.1
